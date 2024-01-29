@@ -44,8 +44,6 @@ def start_test():
             counter=window.after(1000, countdown, secs - 1)
             window.after(60000, stop_test)
 
-        print(f"{key} is pressed")
-
     def stop_test():
         global counter,start_time
 
